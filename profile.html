@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Profile | Journey Together</title>
+    <link rel="stylesheet" href="/style-newlogin.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- LEFT HERO SECTION -->
+    <div class="hero">
+        <div class="brand">
+            <div class="logo">JT</div>
+            <div>
+                <div class="brand-name">Journey Together</div>
+                <div class="brand-sub">Find like-minded travelers</div>
+            </div>
+        </div>
+
+        <h1>Create Your Travel Profile</h1>
+
+        <p class="lead">
+            Tell us about yourself to match with the best travel buddies for your next adventure.
+        </p>
+
+        <img src="https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?cs=srgb&dl=pexels-minan1398-853168.jpg&fm=jpg" class="group img" height="400px" width="550px">
+    </div>
+
+    <!-- RIGHT CARD -->
+    <div class="card">
+        <h2>Create Profile</h2>
+        <p>Fill the details to get started.</p>
+
+        <form>
+
+            <label><li>Full Name</li></label>
+            <input type="text" placeholder="Your name" required>
+
+            <label><li>Email</li></label>
+            <input type="email" placeholder="you@example.com" required>
+
+            <label><li>Mobile Number</li></label>
+            <input type="number" placeholder="987654****" required>
+
+            <label><li>Date of Birth</li></label>
+            <input type="date" required>
+            
+            <label>Age min</label>
+            <input type="number" placeholder="18+" min="18" max="99" required>
+
+            <label>Age max</label>
+            <input type="number" placeholder="18+" min="18" max="99" required>
+
+
+            <label><li>Gender</li></label>
+            <select required>
+                <option value="">Select</option>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+            </select>
+
+            <label>Destination Preference</label>
+            <input type="text" placeholder="Goa, Manali, Dubai..." required>
+
+            <!-- INTEREST CHECKBOX -->
+            <label><li>Interests</li></label>
+            <div class="checkbox-group">
+                <label><input type="checkbox"> Hiking</label>
+                <label><input type="checkbox"> Beaches</label>
+                <label><input type="checkbox"> Food Trips</label>
+                <label><input type="checkbox"> Spiritual Tours</label>
+                <label><input type="checkbox"> Adventure Sports</label>
+            </div>
+
+            <!-- PREFERRED GROUP SIZE -->
+            <label><li>Preferred Group Size</li></label>
+            <select name="Group Size" id="0">
+                <option value="Group Size">Solo 1</option>
+                <option value="Group Size">Couple (2)</option>
+                <option value="Group Size">Small Group (3-5)</option>
+                <option value="Group Size">Large Group (6+)</option>
+                <option value="Group Size">NE</option>
+            </select>
+            <!-- SHORT BIO -->
+            <label><li>Short Bio</li></label>
+            <textarea placeholder="Write something about yourself..." rows="4"></textarea>
+
+            <label><li>Profile Picture</li></label>
+            <input type="file" accept="image/*">
+
+            
+            <a href="/home page.html"><button class="btn">Create Profile</button></a>
+            
+        </form>
+    </div>
+
+</div>
+
+</body>
+</html>

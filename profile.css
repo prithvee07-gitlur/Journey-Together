@@ -1,0 +1,31 @@
+.checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 8px 0 15px 0;
+}
+
+.checkbox-group label {
+    background: #f1fffb;
+    padding: 8px 12px;
+    border-radius: 10px;
+    border: 1px solid #cceee6;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background: #f6fffd;
+    font-size: 15px;
+}
+
+textarea:focus {
+    border-color: #00b98f;
+    outline: none;
+    background: #e3fff7;
+}
