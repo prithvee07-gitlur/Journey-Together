@@ -1,19 +1,16 @@
-/* style.css - drop this file into your project and keep the HTML changes above for best results */
 
-/* Font */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap');
 
 :root{
   --bg: #f5f8f7;
   --card: #ffffff;
   --muted: #6b7280;
-  --accent: #0ea489; /* teal/green from screenshot */
+  --accent: #0ea489;
   --accent-2: #dff6f1;
   --shadow: 0 6px 18px rgba(12, 25, 28, 0.06);
   --radius: 14px;
   --maxw: 1100px;
 }
-
 *{box-sizing:border-box}
 html,body{height:100%}
 body{
@@ -25,15 +22,11 @@ body{
   -moz-osx-font-smoothing:grayscale;
   line-height:1.4;
 }
-
-/* Layout container */
 .container{
   width:92%;
   max-width:var(--maxw);
   margin:0 auto;
 }
-
-/* Header */
 .site-header{
   background:#fff;
   border-bottom:1px solid #eef2f3;
@@ -46,8 +39,6 @@ img{
   width:50px;
   border-radius: 50%;
 }
-
-
 .header-inner{
   display:flex;
   align-items:center;
@@ -87,9 +78,6 @@ img{
   box-shadow: 0 6px 18px rgba(14,164,137,0.18);
   width: 200px;
 }
-
-
-/* Hero */
 .hero{
   padding:36px 0 12px;
 }
@@ -134,11 +122,7 @@ img{
   box-shadow:var(--shadow);
   display:block;
 }
-/* button{
-  box-shadow: 0 2px 4px;
-} */
 
-/* Steps / Cards */
 .steps{
   margin-top:34px;
   padding:26px;
@@ -158,7 +142,7 @@ img{
   margin-bottom:18px;
 }
 
-/* Grid of cards */
+
 .cards-grid{
   display:grid;
   grid-template-columns:repeat(2, 1fr);
@@ -188,8 +172,6 @@ img{
   background:var(--accent-2);
   border-radius:8px;
 }
-
-/* Criteria section */
 .criteria{
   margin:28px 0 60px;
   padding:22px;
@@ -216,7 +198,6 @@ img{
   box-shadow:0 10px 24px ;
 }
 
-/* Small screens */
 @media (max-width:800px){
   .header-inner{padding:8px 0}
   .nav{display:none}
@@ -224,8 +205,6 @@ img{
   .hero-cta{align-items:stretch}
   .hero-photo{border-radius:12px}
 }
-
-/* Large screens */
 @media (min-width:1000px){
   .hero-cta{
     flex-direction:row;
