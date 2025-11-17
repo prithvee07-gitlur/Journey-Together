@@ -1,13 +1,11 @@
-/* style.css - drop this file into your project and keep the HTML changes above for best results */
 
-/* Font */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap');
 
 :root{
   --bg: #f5f8f7;
   --card: #ffffff;
   --muted: #6b7280;
-  --accent: #0ea489; /* teal/green from screenshot */
+  --accent: #0ea489; 
   --accent-2: #dff6f1;
   --shadow: 0 6px 18px rgba(12, 25, 28, 0.06);
   --radius: 14px;
